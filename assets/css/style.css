@@ -1,0 +1,87 @@
+body {
+    display: inline;
+}
+
+#wrapper {
+    background-image: url("images/papyrus.png");
+    padding-top: 100px;
+}
+
+#head {
+    background-color: #ffffff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 2px solid #cccccc;
+}
+
+#vin {
+    position: absolute;
+    color: #ffffff;
+    text-align: center;
+    padding-left: 18px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+nav {
+    float: right;
+    margin-right: 180px;
+    margin-top: 10px;
+}
+
+a {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+li {
+    position: relative;
+    right: 30px;
+    display: inline;
+    border-right: 1px solid black;
+}
+
+#name {
+    background-color: #4aaaa5;
+    width: 350px;
+    height: 80px;
+    text-align: center;
+    float: left;
+    margin-left: 205px;
+}
+
+section {
+    background-color: white;
+    margin: 0 auto;
+    width: 960px;
+    color: #777777;
+    padding: 15px;
+    border: 2px solid #cccccc;
+}
+
+h1 {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+p {
+    padding: 5px;
+    margin: 5px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#pic {
+    float: left;
+    padding: 5px;
+}
+
+footer {
+    text-align: center;
+    font-size: 10px;
+    color: #ffffff;
+    background-color: #666666;
+    margin-top: 80px; 
+    border-top: 4px solid #4aaaa5;
+    padding: 20px;
+}
